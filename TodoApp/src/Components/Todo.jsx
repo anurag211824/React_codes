@@ -24,9 +24,9 @@ const Todo = () => {
     setTodos(todos.filter(todo => todo.no !== no));
   };
 
-  useEffect(() => {
-    console.log(todos);
-  }, [todos]);
+//   useEffect(() => {
+//     console.log(todos);
+//   }, [todos]);
 
   return (
     <div className="todo">
