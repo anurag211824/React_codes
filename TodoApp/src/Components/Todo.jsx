@@ -16,7 +16,7 @@ const Todo = () => {
 
   const completeTodo = (no) => {
     setTodos(todos.map(todo => (
-      todo.no === no ? { ...todo, isCompleted: !todo.isCompleted } : todo
+       todo.no === no ? { ...todo, isCompleted: !todo.isCompleted } : todo
     )));
   };
 
@@ -24,9 +24,9 @@ const Todo = () => {
     setTodos(todos.filter(todo => todo.no !== no));
   };
 
-//   useEffect(() => {
-//     console.log(todos);
-//   }, [todos]);
+  useEffect(() => {
+    console.log(todos);
+  }, [todos]);
 
   return (
     <div className="todo">

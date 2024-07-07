@@ -9,9 +9,7 @@ const Todoitems = ({ text, isCompleted, onComplete, onDelete }) => {
     <div className="todoitems">
       <div className="todoitems-container">
         <img src={isCompleted ? tick : notTick} onClick={onComplete} />
-        <div>
-          {text}
-        </div>
+        <div>{text}</div>
       </div>
       <img src={cross} alt="Delete" onClick={onDelete} />
     </div>
