@@ -16,7 +16,7 @@ function MultipleInput() {
   const [records, setRecords] = useState([]);
 
   // Event handler for input changes
-  const handleInput = (e) => {
+    const handleInput = (e) => {
     const name = e.target.name; // Get the name of the input field
     const value = e.target.value; // Get the value of the input field
     console.log(name, value); // Debug log to see the name and value
