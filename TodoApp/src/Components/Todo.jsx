@@ -30,7 +30,7 @@ const Todo = () => {
 
   return (
     <div className="todo">
-      <div className="todo-header">To-Do List</div>
+      <div className="todo-header">Task Manager App</div>
       <div className="todo-add">
         <input
           type="text"

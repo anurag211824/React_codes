@@ -14,13 +14,13 @@ function UseEffectHook() {
 
   // when we use useSffect hook without any dependencies then it will excute the call back function whenever there is any state change in the component
 
-  // when we use useSffect hook with any dependencies then it will execit the call back function whenever there is any state change in the component
+  // when we use useSffect hook with any dependencies then it will excute the call back function whenever there is any state change in the component
 
   useEffect(() => {
     setTimeout(() => {
       setCount(count + 1);
     }, 2000);
-  });
+  },[count]);
 
   return (
     <div>

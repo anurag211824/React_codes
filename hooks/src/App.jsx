@@ -10,12 +10,11 @@ import Form from './Different_Hooks/form';
 function App() {
   return (
     <div>
-      {/* <UseStateHook/>
+      <UseStateHook/>
       <UseEffectHook/>
       <UseRefHook/>
       <Profile></Profile>
-      <Footer></Footer> */}
-      <Form/>
+      <Footer></Footer>
     </div>
   )
 }
