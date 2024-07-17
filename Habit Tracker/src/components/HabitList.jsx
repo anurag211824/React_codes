@@ -1,4 +1,3 @@
-// src/components/HabitList.js
 import React from 'react';
 import HabitItem from './HabitItem';
 

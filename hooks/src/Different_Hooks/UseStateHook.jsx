@@ -16,8 +16,17 @@ function UseStateHook() {
 
   // useState for changing the paragraph content
   const [state, stateChange] = useState("Please click me to change");
+  const [check,setCheck]=useState(true)
   const paraGraphChanger = () => {
-    stateChange("I am changed as you clicked me");
+    if(check){
+      stateChange("I am changed as you clicked me");
+      setCheck(false)
+     
+    }
+    if(!check){
+      stateChange("Please click me to change");
+      setCheck(true)
+    }
   };
 
   // useState for changing the car details

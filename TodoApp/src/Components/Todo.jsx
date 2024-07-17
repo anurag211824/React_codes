@@ -6,7 +6,8 @@ let count = 0;
 const Todo = () => {
   const [todos, setTodos] = useState([]);
   const inputRef = useRef(null);
-
+  
+ //
   const add = () => {
     if (inputRef.current.value.trim() !== '') {
       setTodos([...todos, { no: count++, text: inputRef.current.value.trim(), isCompleted: false }]);

@@ -6,15 +6,19 @@ import UseRefHook from './Different_Hooks/UseRefHook';
 import Profile from './Different_Hooks/Profile';
 import Footer from './Different_Hooks/Footer';
 import Form from './Different_Hooks/form';
+import UseStateArray from './components/UseStateArray';
+import UseStateObject from './components/UseStateObject';
 
 function App() {
   return (
     <div>
-      <UseStateHook/>
+      {/* <UseStateHook/>
       <UseEffectHook/>
       <UseRefHook/>
       <Profile></Profile>
-      <Footer></Footer>
+      <Footer></Footer> */}
+      {/* <UseStateArray/> */}
+      <UseStateObject/>
     </div>
   )
 }

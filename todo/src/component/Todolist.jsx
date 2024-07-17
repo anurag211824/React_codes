@@ -6,6 +6,7 @@ const Todolist = () => {
   const [tasks, setTasks] = useState([
     { text: "Learn React", isCompleted: false },
     { text: "Learn Tailwind CSS", isCompleted: false },
+
   ]);
 
   const addTask = (text) => {
@@ -17,6 +18,8 @@ const Todolist = () => {
     const newTasks = [...tasks];
     newTasks[index].isCompleted = !newTasks[index].isCompleted;
     setTasks(newTasks);
+    // tasks[index].isCompleted=!tasks[index].isCompleted;
+    // setTasks(tasks);
   };
 
   const deleteTask = (index) => {
@@ -30,6 +33,7 @@ const Todolist = () => {
       <TodoForm addTask={addTask} />
       {tasks.map((task, index) => (
         <Todoitems
+          key={index}
           index={index}
           task={task}
           markComplete={markComplete}
