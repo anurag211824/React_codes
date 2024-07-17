@@ -7,7 +7,7 @@ function UseEffectHook() {
     const timer = setInterval(() => {
       setCount(count + 1);
     }, 1000);
-    return () => clearInterval(timer)
+    return () => clearInterval(timer);
   });
 
   return (

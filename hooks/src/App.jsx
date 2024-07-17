@@ -8,6 +8,7 @@ import Footer from './Different_Hooks/Footer';
 import Form from './Different_Hooks/form';
 import UseStateArray from './components/UseStateArray';
 import UseStateObject from './components/UseStateObject';
+import UseEffect2 from './Different_Hooks/UseEffect2';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Profile></Profile>
       <Footer></Footer> */}
       {/* <UseStateArray/> */}
-      <UseStateObject/>
+      {/* <UseStateObject/> */}
+      <UseEffect2/>
     </div>
   )
 }
