@@ -9,18 +9,19 @@ import Form from './Different_Hooks/form';
 import UseStateArray from './components/UseStateArray';
 import UseStateObject from './components/UseStateObject';
 import UseEffect2 from './Different_Hooks/UseEffect2';
+import TimerComponent from './Different_Hooks/TimerComponent';
 
 function App() {
   return (
     <div>
-      {/* <UseStateHook/>
+      <UseStateHook/>
       <UseEffectHook/>
       <UseRefHook/>
       <Profile></Profile>
-      <Footer></Footer> */}
+      <Footer></Footer>
       {/* <UseStateArray/> */}
       {/* <UseStateObject/> */}
-      <UseEffect2/>
+      {/* <TimerComponent/> */}
     </div>
   )
 }
