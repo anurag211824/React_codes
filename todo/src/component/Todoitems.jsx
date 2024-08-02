@@ -11,5 +11,4 @@ const Todoitems = ({ task, index, markComplete, deleteTask }) => {
     </div>
   );
 };
-
 export default Todoitems;

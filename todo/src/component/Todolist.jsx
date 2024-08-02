@@ -18,8 +18,6 @@ const Todolist = () => {
     const newTasks = [...tasks];
     newTasks[index].isCompleted = !newTasks[index].isCompleted;
     setTasks(newTasks);
-    // tasks[index].isCompleted=!tasks[index].isCompleted;
-    // setTasks(tasks);
   };
 
   const deleteTask = (index) => {

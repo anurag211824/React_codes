@@ -29,7 +29,7 @@ const App = () => {
   };
 
   const deleteHabit = (index) => {
-    const newHabits = habits.filter((_, i) => i !== index);
+    const newHabits = habits.filter((ele, i) => i !== index);
     setHabits(newHabits);
   };
 

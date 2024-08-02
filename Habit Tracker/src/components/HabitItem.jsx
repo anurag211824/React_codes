@@ -1,4 +1,3 @@
-// src/components/HabitItem.js
 import React from 'react';
 
 const HabitItem = ({ habit, index, updateHabitProgress, deleteHabit }) => {
